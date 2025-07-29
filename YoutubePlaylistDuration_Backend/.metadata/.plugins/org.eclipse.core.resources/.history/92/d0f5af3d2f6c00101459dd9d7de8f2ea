@@ -1,0 +1,12 @@
+package com.playlist_clac.service;
+
+import com.playlist_clac.dto.PlaylistResponse;
+
+public class YoutubeService {
+
+	public PlaylistResponse fetchPlaylistDuration(String playlistUrl) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

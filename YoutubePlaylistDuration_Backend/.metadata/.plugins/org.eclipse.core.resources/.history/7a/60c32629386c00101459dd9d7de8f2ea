@@ -1,0 +1,27 @@
+package com.playlist_clac.dto;
+
+import java.util.Map;
+
+public class PlaylistResponse {
+    private int totalVideos;
+    private String totalDuration;
+    private Map<String, String> adjustedSpeeds;
+
+    public PlaylistResponse(int totalVideos, String totalDuration, Map<String, String> adjustedSpeeds) {
+        this.totalVideos = totalVideos;
+        this.totalDuration = totalDuration;
+        this.adjustedSpeeds = adjustedSpeeds;
+    }
+
+    public int getTotalVideos() {
+        return totalVideos;
+    }
+
+    public String getTotalDuration() {
+        return totalDuration;
+    }
+
+    public Map<String, String> getAdjustedSpeeds() {
+        return adjustedSpeeds;
+    }
+}

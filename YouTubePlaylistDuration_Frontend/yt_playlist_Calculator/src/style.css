@@ -1,0 +1,101 @@
+/* Global body styles */
+body {
+  background-color: #f2f4f8; /* Light background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+}
+
+/* Container wrapping the entire content */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+}
+
+/* Main heading style */
+h2 {
+  text-align: center;
+  color: #1e3a8a; /* Dark blue color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+  gap: 15px;
+}
+
+/* Input field style */
+input[type="text"] {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s;
+}
+
+/* Highlight border on focus */
+input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+/* Submit button style */
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #007bff; /* Primary blue */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Result display box */
+.result-box {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #4b5a6a; /* Dark background */
+  border-radius: 8px;
+  border: 1px solid #c3dfff;
+}
+
+/* Result title */
+.result-box h4 {
+  margin-bottom: 15px;
+  color: #06b463; /* Green color for total duration */
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+/* Table styling */
+.result-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table cell padding */
+.result-box td {
+  padding: 6px 10px;
+  vertical-align: top;
+}
+
+/* First column bold text */
+.result-box td:first-child {
+  font-weight: 600;
+  width: 50%;
+}
